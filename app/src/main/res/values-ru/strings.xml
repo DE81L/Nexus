@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Чат и Задачи</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <string name="send">Отправить</string>
+    <string name="chat">Чат</string>
+    <string name="settings">Настройки</string>
+    <string name="profile">Профиль</string>
+    <string name="logout">Выйти</string>
+    <string name="all">Все</string>
+    <string name="sent">Отправленные</string>
+    <string name="received">Полученные</string>
+    
+    <!-- Login and Registration -->
+    <string name="login">Войти</string>
+    <string name="register">Регистрация</string>
+    <string name="username">Имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="full_name">Полное имя</string>
+    <string name="email">Email</string>
+    <string name="login_to_your_account">Войдите в свой аккаунт</string>
+    <string name="create_account">Создать новый аккаунт</string>
+    <string name="dont_have_account">Нет аккаунта? Зарегистрироваться</string>
+    <string name="already_have_account">Уже есть аккаунт? Войти</string>
+    <string name="invalid_credentials">Неверное имя пользователя или пароль</string>
+    <string name="username_already_exists">Имя пользователя уже существует</string>
+    <string name="all_fields_required">Все поля обязательны</string>
+    <string name="passwords_do_not_match">Пароли не совпадают</string>
+    <string name="password_too_short">Пароль должен быть не менее 6 символов</string>
+    
+    <!-- Chats -->
+    <string name="chats">Чаты</string>
+    <string name="no_chats_yet">Чаты отсутствуют</string>
+    <string name="type_message">Введите сообщение…</string>
+    <string name="no_messages_yet">Нет сообщений</string>
+    <string name="take_photo">Сделать фото</string>
+    <string name="attach_file">Прикрепить файл</string>
+    <string name="image_attachment">Изображение</string>
+    <string name="select_file">Выбрать файл</string>
+    <string name="error_processing_file">Ошибка обработки файла</string>
+    <string name="no_app_to_open_file">Нет приложения для открытия файла</string>
+    <string name="share_file">Поделиться файлом</string>
+    
+    <!-- Requests/Tasks -->
+    <string name="requests">Запросы</string>
+    <string name="new_request">Новый запрос</string>
+    <string name="task_description">Описание задачи</string>
+    <string name="room_number">Номер комнаты</string>
+    <string name="room">Комната:</string>
+    <string name="room_number_format">Комната: %s</string>
+    <string name="request_date">Дата запроса:</string>
+    <string name="completion_date">Дата выполнения:</string>
+    <string name="not_set">Не указано</string>
+    <string name="set">Установить</string>
+    <string name="clear">Очистить</string>
+    <string name="requester">Заявитель:</string>
+    <string name="assignee">Исполнитель:</string>
+    <string name="requester_format">Заявитель: %s</string>
+    <string name="assignee_format">Исполнитель: %s</string>
+    <string name="status">Статус:</string>
+    <string name="comments">Комментарии</string>
+    <string name="add_comment">Добавить комментарий…</string>
+    <string name="no_comments_yet">Комментариев пока нет</string>
+    <string name="open_chat">Открыть чат</string>
+    <string name="no_requests_yet">Запросов пока нет</string>
+    <string name="request_details">Детали запроса</string>
+    <string name="enter_task_description">Введите описание задачи</string>
+    <string name="enter_room_number">Введите номер комнаты</string>
+    <string name="no_assignee_selected">Не выбран исполнитель</string>
+    <string name="assignee_not_found">Исполнитель не найден</string>
+    <string name="request_created">Запрос успешно создан</string>
+    <string name="request_not_found">Запрос не найден</string>
+    
+    <!-- Request Status -->
+    <string name="status_pending">В ожидании</string>
+    <string name="status_in_progress">В процессе</string>
+    <string name="status_completed">Завершено</string>
+    <string name="status_cancelled">Отменено</string>
+    
+    <!-- Request Actions -->
+    <string name="accept_request">Принять запрос</string>
+    <string name="mark_as_completed">Отметить как выполненный</string>
+    <string name="cancel_request">Отменить запрос</string>
+    
+    <!-- System Comments -->
+    <string name="comment_request_accepted">Запрос принят и отмечен как "в процессе".</string>
+    <string name="comment_request_completed">Запрос отмечен как выполненный.</string>
+    <string name="comment_request_cancelled">Запрос отменен.</string>
+    
+    <!-- Profile -->
+    <string name="profile_updated">Профиль успешно обновлен</string>
+    <string name="user_not_found">Пользователь не найден</string>
+    
+    <!-- Barcode Scanner -->
+    <string name="barcode_scanner">Сканер штрих-кодов</string>
+    <string name="barcode_result">Результат сканирования:</string>
+    <string name="scan_again">Сканировать снова</string>
+    <string name="permission_required">Требуется разрешение</string>
+    <string name="camera_permission_required">Для работы сканера требуется доступ к камере.</string>
+    <string name="camera_error">Ошибка инициализации камеры</string>
+    
+    <!-- Settings -->
+    <string name="appearance">Внешний вид</string>
+    <string name="dark_mode">Темный режим</string>
+    <string name="language">Язык</string>
+    <string name="russian_language">Русский язык</string>
+    <string name="language_note">Переключите для смены языка между английским и русским</string>
+    <string name="language_changed">Язык изменен</string>
+</resources>

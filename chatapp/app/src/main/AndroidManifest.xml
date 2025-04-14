@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.nexus">
+    package="com.example.chatapp">
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <application
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
+        android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Nexus"
-        tools:targetApi="31">
+        android:theme="@style/Theme.ChatApp">
 
         <activity
-            android:name=".chatapp.SplashActivity"
+            android:name=".SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.ChatApp.SplashScreen">
             <intent-filter>
@@ -32,40 +29,40 @@
             android:exported="false" />
 
         <activity
-            android:name=".chatapp.auth.LoginActivity"
+            android:name=".auth.LoginActivity"
             android:exported="false" />
 
         <activity
-            android:name=".chatapp.auth.RegisterActivity"
+            android:name=".auth.RegisterActivity"
             android:exported="false" />
 
         <activity
-            android:name=".chatapp.chat.ChatsListActivity"
+            android:name=".chat.ChatsListActivity"
             android:exported="false" />
 
         <activity
-            android:name=".chatapp.chat.ChatActivity"
+            android:name=".chat.ChatActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
-            android:name=".chatapp.request.RequestsActivity"
+            android:name=".request.RequestsActivity"
             android:exported="false" />
 
         <activity
-            android:name=".chatapp.request.RequestDetailActivity"
+            android:name=".request.RequestDetailActivity"
             android:exported="false" />
 
         <activity
-            android:name=".chatapp.profile.ProfileActivity"
+            android:name=".profile.ProfileActivity"
             android:exported="false" />
 
         <activity
-            android:name=".chatapp.settings.SettingsActivity"
+            android:name=".settings.SettingsActivity"
             android:exported="false" />
 
         <activity
-            android:name=".chatapp.barcode.BarcodeScannerActivity"
+            android:name=".barcode.BarcodeScannerActivity"
             android:exported="false" />
 
         <provider
@@ -77,13 +74,6 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>
